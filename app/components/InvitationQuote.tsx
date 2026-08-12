@@ -3,9 +3,9 @@
 export default function InvitationQuote() {
   return (
     <section id="quote" className="py-12 px-4 max-w-4xl mx-auto text-center">
-      <div className="relative p-8 sm:p-14 rounded-3xl bg-white/80 backdrop-blur-md border border-[#be9953]/30 gold-glow shadow-xl">
+      <div className="relative p-8 sm:p-14 rounded-3xl bg-white/60 backdrop-blur-md border border-[#be9953]/30 gold-glow shadow-xl">
         {/* Top Ornament */}
-        <div className="w-12 h-12 mx-auto mb-6 rounded-full bg-[#f8faf6] border border-[#be9953]/30 flex items-center justify-center text-[#be9953]">
+        <div className="w-12 h-12 mx-auto mb-6 rounded-full bg-[#f8faf6]/80 border border-[#be9953]/30 flex items-center justify-center text-[#be9953]">
           <svg
             className="w-6 h-6"
             fill="currentColor"

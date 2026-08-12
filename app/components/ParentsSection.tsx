@@ -2,9 +2,8 @@
 
 export default function ParentsSection() {
   return (
-    <section className="py-14 px-4 bg-[#f1f4ef]/60">
+    <section className="py-14 px-4 bg-[#f1f4ef]/40">
       <div className="max-w-4xl mx-auto text-center">
-
         <h2 className="font-cormorant text-3xl sm:text-5xl text-[#182317] font-bold mb-3">
           Хүндэтгэсэн эцэг эх
         </h2>
@@ -13,7 +12,7 @@ export default function ParentsSection() {
         {/* 2 Parents Cards */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-8">
           {/* Groom's Parents Card */}
-          <div className="bg-white p-8 rounded-2xl border border-[#be9953]/30 shadow-md relative overflow-hidden group hover:shadow-xl transition-all duration-300">
+          <div className="bg-white/60 backdrop-blur-md p-8 rounded-2xl border border-[#be9953]/30 shadow-md relative overflow-hidden group hover:shadow-xl transition-all duration-300">
             <div className="absolute top-0 left-0 w-full h-1 gold-gradient-bg"></div>
             <h3 className="font-cormorant text-2xl font-bold text-[#be9953] mb-3">
               Хүүгийн эцэг эх
@@ -25,7 +24,7 @@ export default function ParentsSection() {
           </div>
 
           {/* Bride's Parents Card */}
-          <div className="bg-white p-8 rounded-2xl border border-[#be9953]/30 shadow-md relative overflow-hidden group hover:shadow-xl transition-all duration-300">
+          <div className="bg-white/60 backdrop-blur-md p-8 rounded-2xl border border-[#be9953]/30 shadow-md relative overflow-hidden group hover:shadow-xl transition-all duration-300">
             <div className="absolute top-0 left-0 w-full h-1 gold-gradient-bg"></div>
             <h3 className="font-cormorant text-2xl font-bold text-[#be9953] mb-3">
               Охины эцэг эх

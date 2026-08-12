@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import Image from "next/image";
 
 interface OpeningCoverProps {
   onOpen: () => void;
@@ -18,12 +19,21 @@ export default function OpeningCover({ onOpen }: OpeningCoverProps) {
 
   return (
     <section className="relative min-h-screen flex flex-col items-center justify-center p-4 bg-[#182317] text-white overflow-hidden select-none">
-      {/* Background Subtle Pattern */}
-      <div className="absolute inset-0 opacity-15 bg-[radial-gradient(#be9953_1px,transparent_1px)] [background-size:24px_24px]"></div>
+      {/* Background Image */}
+      <div className="absolute inset-0 z-0">
+        <Image
+          src="/18cqNZpC.jpg"
+          alt="Ж.Хишигбаяр & Б.Мөнхжаргал"
+          fill
+          priority
+          className="object-cover object-top opacity-40 scale-105"
+        />
+        <div className="absolute inset-0 bg-gradient-to-b from-[#182317]/80 via-[#182317]/60 to-[#182317]/90"></div>
+      </div>
       
       {/* Outer Envelope / Letter Frame */}
       <div
-        className={`relative max-w-lg w-full bg-[#f8faf6] text-[#182317] p-8 sm:p-12 rounded-3xl border-2 border-[#be9953] shadow-2xl transition-all duration-700 transform ${
+        className={`relative z-10 max-w-lg w-full bg-[#f8faf6]/95 backdrop-blur-md text-[#182317] p-8 sm:p-12 rounded-3xl border-2 border-[#be9953] shadow-2xl transition-all duration-700 transform ${
           isOpen ? "scale-105 opacity-0 -translate-y-12" : "scale-100 opacity-100"
         }`}
       >
