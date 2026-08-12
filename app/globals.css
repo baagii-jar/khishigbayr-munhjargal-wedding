@@ -46,7 +46,10 @@ body {
   align-items: center;
   height: 2px;
   background: linear-gradient(90deg, transparent 0%, rgba(190, 153, 83, 0.35) 50%, transparent 100%);
-  margin: 32px 0;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 24px;
+  margin-bottom: 24px;
 }
 
 .botanical-divider::after {

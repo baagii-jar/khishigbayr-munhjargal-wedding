@@ -44,7 +44,7 @@ export default function OpeningCover({ onOpen }: OpeningCoverProps) {
         </p>
 
         {/* Decorative Divider */}
-        <div className="botanical-divider my-6"></div>
+        <div className="botanical-divider w-1/2 mx-auto my-6"></div>
 
         {/* Open Button */}
         <div className="text-center">

@@ -40,7 +40,7 @@ export default function HeroSection() {
           </div>
 
           {/* Leaf Divider */}
-          <div className="botanical-divider my-4"></div>
+          <div className="botanical-divider w-1/2 mx-auto my-4"></div>
 
           {/* Date, Time & Location */}
           <div className="space-y-2">
